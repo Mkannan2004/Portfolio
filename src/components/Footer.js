@@ -28,9 +28,9 @@ const Footer = () => {
           </div>
           
           <div className="footer-socials">
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://www.linkedin.com/in/kannan-m-080320353" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/dashboard" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.instagram.com/_mkannan_ak_" target="_blank" rel="noreferrer">Instagram</a>
           </div>
 
           <div className="footer-copyright">

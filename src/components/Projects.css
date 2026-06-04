@@ -1,68 +1,116 @@
 .projects-section {
   padding: 6rem 2rem;
-  background-color: #000;
+  background-color: #0b0f19; /* Innum nalla rich modern dark background */
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 3rem;
+  gap: 2.5rem;
   max-width: 1280px;
   margin: 0 auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
+@media (min-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr); /* Big screens-la card inline look nalla irukum */
+  }
+}
+
+/* Card Container Modernization */
 .project-card {
   cursor: pointer;
+  background: rgba(30, 41, 59, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(6, 182, 212, 0.4); /* Cyan highlight border */
+  box-shadow: 0 10px 30px -15px rgba(6, 182, 212, 0.2);
 }
 
 .project-image-wrapper {
+  width: 100%;
+  height: 200px;
   overflow: hidden;
-  border-radius: 0.75rem;
-  background-color: #111827;
-  aspect-ratio: 16 / 9;
-  margin-bottom: 1.5rem;
 }
 
 .project-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.8;
-  transition: transform 0.7s ease, opacity 0.7s ease;
+  display: block;
+  transition: transform 0.5s ease;
 }
 
 .project-card:hover .project-image {
-  transform: scale(1.05);
-  opacity: 1;
+  transform: scale(1.04); /* Subtle smooth zoom */
 }
 
+/* Content Box Body */
 .project-details {
+  padding: 1.5rem;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .project-title {
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin: 0;
+  color: #f8fafc;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.project-card:hover .project-title {
+  color: #22d3ee; /* Title turns cyan on hover */
 }
 
 .project-category {
-  color: #6b7280;
-  margin-top: 0.25rem;
+  color: #94a3b8;
+  font-size: 0.85rem;
+  margin: 0;
+  font-weight: 500;
 }
 
-.view-project-link {
-  color: #fff;
-  font-size: 0.875rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  padding-bottom: 0.25rem;
+/* --- LINKS STYLING (PURE WHITE & VISIBLE) --- */
+.project-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-t: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.project-links a {
+  color: #ffffff !important; /* Enna color overlapping irundhalum pure white force pannum */
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  opacity: 1 !important; /* No half transparency text */
+  transition: all 0.2s ease;
+}
+
+/* Individual Links Hover Effect */
+.project-links a:hover {
+  color: #22d3ee !important; /* Live Demo/GitHub mela mouse vecha Cyan color-ah maarum */
+  transform: translateX(2px);
 }

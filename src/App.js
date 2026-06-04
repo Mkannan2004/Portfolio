@@ -9,9 +9,10 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Portfolio">
       <div className="app-main">
         <Navbar />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+
       </div>
     </Router>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './About.css';
-
+import KannanResume from '../assets/images/KannanResume.pdf';
 const About = () => {
   
   const fadeUp = {
@@ -28,7 +28,7 @@ const About = () => {
           <h1 className="page-title">Behind the <span className="gradient-text">Code</span></h1>
           
           <p className="about-description">
-            Hi, I'm <span className="highlight-text">Kannan Murugesan</span>. I am a passionate Full Stack Developer who crafts scalable web applications and intuitive digital experiences. 
+            Hi, I'm <span className="highlight-text">M Kannan</span>. I am a passionate Full Stack Developer who crafts scalable web applications and intuitive digital experiences. 
           </p>
           
           <p className="about-description">
@@ -36,13 +36,18 @@ const About = () => {
           </p>
 
           <div className="about-cta">
-            <a href="/resume.pdf" download="Kannan_Murugesan_Resume.pdf" className="premium-btn primary">
-              Download CV
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M8 11L3 6H6V2H10V6H13L8 11ZM3 13H13V14H3V13Z" fill="currentColor"/>
-              </svg>
-            </a>
-          </div>
+  <a 
+  href={KannanResume} 
+  download="KannanResume.pdf" 
+  className="premium-btn primary"
+>
+  Download CV
+
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8 11L3 6H6V2H10V6H13L8 11ZM3 13H13V14H3V13Z" fill="currentColor"/>
+  </svg>
+</a>
+</div>
 
           <div className="stats-container">
             <div className="stat-box glass-card">
@@ -84,7 +89,7 @@ const About = () => {
             <div className="timeline-item">
               <div className="timeline-dot"></div>
               <div className="timeline-content glass-card">
-                <h4>Training</h4>
+                <h4>Mern Stack Developer Training</h4>
                 <h5>S2b School Of Engineering</h5>
                 <p className="timeline-date">March-May 2026</p>
               </div>

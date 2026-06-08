@@ -1,6 +1,6 @@
 .projects-section {
   padding: 6rem 2rem;
-  background-color: #0b0f19; /* Innum nalla rich modern dark background */
+  background-color: #0b0f19; 
 }
 
 .projects-grid {
@@ -19,11 +19,11 @@
 
 @media (min-width: 1024px) {
   .projects-grid {
-    grid-template-columns: repeat(3, 1fr); /* Big screens-la card inline look nalla irukum */
+    grid-template-columns: repeat(3, 1fr); 
   }
 }
 
-/* Card Container Modernization */
+
 .project-card {
   cursor: pointer;
   background: rgba(30, 41, 59, 0.4);
@@ -37,7 +37,7 @@
 
 .project-card:hover {
   transform: translateY(-5px);
-  border-color: rgba(6, 182, 212, 0.4); /* Cyan highlight border */
+  border-color: rgba(6, 182, 212, 0.4); 
   box-shadow: 0 10px 30px -15px rgba(6, 182, 212, 0.2);
 }
 
@@ -56,10 +56,10 @@
 }
 
 .project-card:hover .project-image {
-  transform: scale(1.04); /* Subtle smooth zoom */
+  transform: scale(1.04); 
 }
 
-/* Content Box Body */
+
 .project-details {
   padding: 1.5rem;
   display: flex;
@@ -76,7 +76,7 @@
 }
 
 .project-card:hover .project-title {
-  color: #22d3ee; /* Title turns cyan on hover */
+  color: #22d3ee;
 }
 
 .project-category {
@@ -86,7 +86,7 @@
   font-weight: 500;
 }
 
-/* --- LINKS STYLING (PURE WHITE & VISIBLE) --- */
+
 .project-links {
   display: flex;
   gap: 1.5rem;
@@ -96,7 +96,7 @@
 }
 
 .project-links a {
-  color: #ffffff !important; /* Enna color overlapping irundhalum pure white force pannum */
+  color: #ffffff !important; 
   font-size: 0.85rem;
   font-weight: 600;
   text-decoration: none;
@@ -105,12 +105,12 @@
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  opacity: 1 !important; /* No half transparency text */
+  opacity: 1 !important; 
   transition: all 0.2s ease;
 }
 
-/* Individual Links Hover Effect */
+
 .project-links a:hover {
-  color: #22d3ee !important; /* Live Demo/GitHub mela mouse vecha Cyan color-ah maarum */
+  color: #22d3ee !important; 
   transform: translateX(2px);
 }

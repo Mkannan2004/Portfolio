@@ -21,30 +21,39 @@ import colourImg from '../assets/images/colorgenerator.png';
 import GalleryImg from '../assets/images/gallery.png';
 import { paste } from '@testing-library/user-event/dist/paste';
 import passwordImg from '../assets/images/password generator.png';
+import Todoimg from './../assets/images/crud.png';
 const projects= [
   {
     id: 1,
+    title: 'Todo List App',
+    category: 'Web App',
+    image: Todoimg,
+    github: 'https://github.com/Mkannan2004/TODOLIST-CRUD'
+  },
+  {
+    id: 2,
     title: 'Blogger',
     category: 'Web App',
     image: bloggerImg,
     github: 'https://github.com/Mkannan2004/Blogger',
   },
  {
-  id: 2,
+  id: 3,
   title: 'E-Commerce',
   category: 'Web App',
   image: ecommerceImg,
   github: 'https://github.com/Mkannan2004/Ecommerce-Website',
 },
   {
-    id: 3,
+    id: 4,
     title: 'Portfolio',
     category: 'Web App',
     image: portfolioImg,
     github: 'https://github.com/Mkannan2004/Portfolio',
+      live: 'http://localhost:3000/Portfolio'
   },
   {
-  id: 4,
+  id: 5,
   title: 'Simple Calculator',
   category: 'Mobile App',
   image: calculatorImg,
@@ -52,7 +61,7 @@ const projects= [
   live: 'https://mkannan2004.github.io/simple-calculator/',
 },
   {
-  id: 5,
+  id: 6,
   title: 'Quotes App',
   category: 'Mobile App',
   image: quotesImg,
@@ -60,7 +69,7 @@ const projects= [
   live : 'https://mkannan2004.github.io/QuotesGenerator/',
 },
   {
-    id: 6,
+    id: 7,
     title: 'Quiz App',
     category: 'Mobile App',
     image: quizImg,
@@ -68,7 +77,7 @@ const projects= [
     live: 'https://mkannan2004.github.io/QuizApp/',
   },
   {
-  id: 7,
+  id: 8,
   title: 'Signup Form',
   category: 'Web App',
   image: signupImg,
@@ -76,7 +85,7 @@ const projects= [
   live: 'https://mkannan2004.github.io/SignupForm/',
 },
   {
-  id: 8,
+  id: 9,
   title: 'Todo List',
   category: 'Mobile App',
   image: todoImg,
@@ -84,7 +93,7 @@ const projects= [
   live: 'https://mkannan2004.github.io/ToDoList/',
 },
  {
-  id: 9,
+  id: 10,
   title: 'Age Calculator',
   category: 'Web App',
   image: ageImg,
@@ -92,7 +101,7 @@ const projects= [
   live: 'https://mkannan2004.github.io/AgeCalculator/',
 },
   {
-  id: 10,
+  id: 11,
   title: 'Login Page',
   category: 'Web App',
   image: loginImg,
@@ -100,7 +109,7 @@ const projects= [
   live: 'https://mkannan2004.github.io/Loginpage/',
 },
   {
-  id: 11,
+  id: 12,
   title: 'Registration Form',
   category: 'Web App',
   image: registerImg,
@@ -108,7 +117,7 @@ const projects= [
   live: 'https://mkannan2004.github.io/RegistrationForm/',
 },
   {
-  id: 12,
+  id: 13,
   title: 'Github Profile Finder',
   category: 'Mobile App',
   image: githubImg,
@@ -116,7 +125,7 @@ const projects= [
   live: 'https://mkannan2004.github.io/GithubProfileFinder/',
 },
   {
-  id: 13,
+  id: 14,
   title: 'Digital Clock',
   category: 'Web App',
   image: clockImg,
@@ -124,7 +133,7 @@ const projects= [
   live: 'https://mkannan2004.github.io/DigitalClock/',
 },
  {
-  id: 14,
+  id: 15,
   title: 'Modern Admin Dashboard',
   category: 'Web App',
   image: adminImg,
@@ -132,7 +141,7 @@ const projects= [
   live: 'https://mkannan2004.github.io/AdminDashboard/',
 },
   {
-  id: 15,
+  id: 16,
   title: 'SEO Website',
   category: 'Web App',
   image: seoImg,
@@ -140,7 +149,7 @@ const projects= [
   live: 'https://mkannan2004.github.io/SeoWebsite/',
 },
   {
-  id: 16,
+  id: 17,
   title: 'Prime Number Checker',
   category: 'Mobile App',
   image: primeImg,
@@ -148,7 +157,7 @@ const projects= [
   live: 'https://mkannan2004.github.io/PrimeNumberChecker/'
 },
 {
-  id: 17,
+  id: 18,
   title: 'Logistic Dashboard',
   category: 'WebApp',
   image: logisticImg,
@@ -156,7 +165,7 @@ const projects= [
   live: 'https://mkannan2004.github.io/LogisticDashboard/',
 },
 {
-  id: 18,
+  id: 19,
   title: 'Colour  Generator',
   category: 'WebApp',
   image: colourImg,
@@ -164,7 +173,7 @@ const projects= [
   live: 'https://mkannan2004.github.io/ColourGenerator/'
 },
 {
-  id: 19,
+  id: 20,
   title: 'Modern Gallery',
   category: 'WebApp',
   image: GalleryImg,
@@ -172,7 +181,7 @@ const projects= [
   live: 'https://mkannan2004.github.io/ModernGallery/'
 },
 {
-  id: 20,
+  id: 21,
   title: 'Password Generator',
   category: 'Mobile App',
   image: passwordImg,

@@ -1,15 +1,35 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.32750acc.css",
-    "main.js": "/Portfolio/static/js/main.6e1df761.js",
-    "static/js/453.fd2f0c4a.chunk.js": "/Portfolio/static/js/453.fd2f0c4a.chunk.js",
+    "main.css": "/Portfolio/static/css/main.570937ef.css",
+    "main.js": "/Portfolio/static/js/main.2e2ab697.js",
+    "static/media/gallery.png": "/Portfolio/static/media/gallery.fd6fe1e9df46c7b231be.png",
+    "static/media/seowebsite.png": "/Portfolio/static/media/seowebsite.6e9fc3317b87d46c3163.png",
+    "static/media/upi-credit-cards-v1.png": "/Portfolio/static/media/upi-credit-cards-v1.f35b8430d427cee113c0.png",
+    "static/media/colorgenerator.png": "/Portfolio/static/media/colorgenerator.6e8eb780593f91bd769f.png",
+    "static/media/registeration form.png": "/Portfolio/static/media/registeration form.7c298694b6dc097232db.png",
+    "static/media/githubfinder.png": "/Portfolio/static/media/githubfinder.024429ff7037dd2184cf.png",
+    "static/media/portfolio.jpg": "/Portfolio/static/media/portfolio.544fa25cae0e630ff5bd.jpg",
+    "static/media/signupform.png": "/Portfolio/static/media/signupform.c03bf9dd94f23165f836.png",
+    "static/media/prime number .png": "/Portfolio/static/media/prime number .25028e33a38853061139.png",
+    "static/media/login.png": "/Portfolio/static/media/login.4a154b3ead83bba26e2d.png",
+    "static/media/todolist.png": "/Portfolio/static/media/todolist.133208ce13db5d67f960.png",
+    "static/media/digitalclock.png": "/Portfolio/static/media/digitalclock.63f96980d32a42c8566b.png",
+    "static/media/adminpanel.png": "/Portfolio/static/media/adminpanel.d3c98634cb07d4214b6b.png",
+    "static/media/password generator.png": "/Portfolio/static/media/password generator.22de12703462d4f0c002.png",
+    "static/media/logistic.png": "/Portfolio/static/media/logistic.f3a141d37e99e8266ed4.png",
+    "static/media/KannanResume.pdf": "/Portfolio/static/media/KannanResume.f61ae0d247d393967569.pdf",
+    "static/media/quiz.webp": "/Portfolio/static/media/quiz.961feae123e1c1e3989d.webp",
+    "static/media/quotesapp.jpg": "/Portfolio/static/media/quotesapp.76f61eb64d9f281b6535.jpg",
+    "static/media/crud.png": "/Portfolio/static/media/crud.87542d1353e67fa3c2f2.png",
+    "static/media/simplecalculator.png": "/Portfolio/static/media/simplecalculator.610d76f5c50a3b671c0d.png",
+    "static/media/teamwork-making-online-blog_53876-94868.avif": "/Portfolio/static/media/teamwork-making-online-blog_53876-94868.5206549a960c1361e513.avif",
+    "static/media/agecalculator.png": "/Portfolio/static/media/agecalculator.b3243ae73abd8c492c81.png",
     "index.html": "/Portfolio/index.html",
-    "main.32750acc.css.map": "/Portfolio/static/css/main.32750acc.css.map",
-    "main.6e1df761.js.map": "/Portfolio/static/js/main.6e1df761.js.map",
-    "453.fd2f0c4a.chunk.js.map": "/Portfolio/static/js/453.fd2f0c4a.chunk.js.map"
+    "main.570937ef.css.map": "/Portfolio/static/css/main.570937ef.css.map",
+    "main.2e2ab697.js.map": "/Portfolio/static/js/main.2e2ab697.js.map"
   },
   "entrypoints": [
-    "static/css/main.32750acc.css",
-    "static/js/main.6e1df761.js"
+    "static/css/main.570937ef.css",
+    "static/js/main.2e2ab697.js"
   ]
 }

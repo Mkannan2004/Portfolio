@@ -12,7 +12,6 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "framer-motion": "^12.40.0",
-    "gh-pages": "^6.3.0",
     "mongoose": "^9.6.3",
     "nodemailer": "^8.0.9",
     "react": "^19.2.6",
@@ -21,7 +20,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-"homepage": "https://mkannan2004.github.io/Portfolio",
+ "homepage": "https://mkannan2004.github.io/Portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -50,6 +49,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.5.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.15",
     "tailwindcss": "^4.3.0"
   },

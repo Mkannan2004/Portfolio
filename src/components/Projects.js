@@ -28,7 +28,8 @@ const projects= [
     title: 'Todo List App',
     category: 'Web App',
     image: Todoimg,
-    github: 'https://github.com/Mkannan2004/TODOLIST-CRUD'
+    github: 'https://github.com/Mkannan2004/TODOLIST-CRUD',
+    live: 'https://mkannan2004.github.io/TODOLIST-CRUD/'
   },
   {
     id: 2,
@@ -43,6 +44,7 @@ const projects= [
   category: 'Web App',
   image: ecommerceImg,
   github: 'https://github.com/Mkannan2004/Ecommerce-Website',
+  live: 'https://frontend-f4io.onrender.com/'
 },
   {
     id: 4,

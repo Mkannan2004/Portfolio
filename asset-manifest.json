@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.570937ef.css",
-    "main.js": "/Portfolio/static/js/main.cef8593c.js",
+    "main.js": "/Portfolio/static/js/main.c37dc165.js",
     "static/media/gallery.png": "/Portfolio/static/media/gallery.fd6fe1e9df46c7b231be.png",
     "static/media/seowebsite.png": "/Portfolio/static/media/seowebsite.6e9fc3317b87d46c3163.png",
     "static/media/upi-credit-cards-v1.png": "/Portfolio/static/media/upi-credit-cards-v1.f35b8430d427cee113c0.png",
@@ -26,10 +26,10 @@
     "static/media/agecalculator.png": "/Portfolio/static/media/agecalculator.b3243ae73abd8c492c81.png",
     "index.html": "/Portfolio/index.html",
     "main.570937ef.css.map": "/Portfolio/static/css/main.570937ef.css.map",
-    "main.cef8593c.js.map": "/Portfolio/static/js/main.cef8593c.js.map"
+    "main.c37dc165.js.map": "/Portfolio/static/js/main.c37dc165.js.map"
   },
   "entrypoints": [
     "static/css/main.570937ef.css",
-    "static/js/main.cef8593c.js"
+    "static/js/main.c37dc165.js"
   ]
 }

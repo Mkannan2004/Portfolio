@@ -29,7 +29,6 @@ const projects= [
     category: 'Web App',
     image: Todoimg,
     github: 'https://github.com/Mkannan2004/TODOLIST-CRUD',
-    live: 'https://mkannan2004.github.io/TODOLIST-CRUD/'
   },
   {
     id: 2,
@@ -52,7 +51,7 @@ const projects= [
     category: 'Web App',
     image: portfolioImg,
     github: 'https://github.com/Mkannan2004/Portfolio',
-      live: 'http://localhost:3000/Portfolio'
+      live: 'https://mkannan2004.github.io/Portfolio/'
   },
   {
   id: 5,
